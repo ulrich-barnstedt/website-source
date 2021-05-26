@@ -4,21 +4,23 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.2",
+    "@headlessui/react": "^1.2.0",
+    "@heroicons/react": "^1.0.1",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "gh-pages": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "push" : "craco build && gh-pages -d build -b master -m Deploy -r https://github.com/ulrich-barnstedt/ulrich-barnstedt.github.io.git -t"
+    "push": "craco build && gh-pages -d build -b master -m Deploy -r https://github.com/ulrich-barnstedt/ulrich-barnstedt.github.io.git -t"
   },
   "eslintConfig": {
     "extends": [
